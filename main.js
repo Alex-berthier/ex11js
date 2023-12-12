@@ -2,8 +2,8 @@ var MaDiv = document.getElementById("div1");
 MaDiv.addEventListener("click", test);
 
 function test(evenement) {
-    fetch(
-        "http://192.168.65.64/ne_pas_enlever/ex11.json",
+    fetch (
+        "http://192.168.65.64/main.json",
         {method : 'GET'}
         ).then(
             response => response.json()
